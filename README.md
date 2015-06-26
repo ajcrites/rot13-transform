@@ -1,4 +1,4 @@
-# ROT-13 Cypher Stream
+# ROT-13 Cypher Stream 1.0.0
 
 Implementation of the ROT-13 cypher using streams.
 

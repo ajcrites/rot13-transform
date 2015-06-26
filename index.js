@@ -1,6 +1,6 @@
 var x,
     Transform = require("readable-stream").Transform,
-    inherits = require("inherits"),
+    util = require("util"),
     transformMap = {};
 
 // 65 = A, 77 = N, 90 = Z, 97 = a, etc.
@@ -33,7 +33,7 @@ function Rot13(options) {
 
     Transform.call(this, options);
 }
-inherits(Rot13, Transform);
+util.inherits(Rot13, Transform);
 
 Rot13.prototype._transform = function (chunk, enc, done) {
     var x,

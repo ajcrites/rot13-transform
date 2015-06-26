@@ -1,18 +1,16 @@
 {
   "name": "rot13-transform",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "ROT-13 cypher implementation using transform stream",
   "author": "Andrew Crites (aka Explosion Pills) <ajcrites@gmail.com>",
   "dependencies": {
-    "readable-stream": "~1.0.27-1",
-    "inherits": "~2.0.1",
-    "readable-string": "~0.1.0"
+    "readable-stream": "^2.0.1"
   },
   "devDependencies": {
-    "mocha": "~1.18.2",
-    "mktemp": "~0.3.4",
-    "readable-string": "0.1.0",
-    "should": "~3.3.1"
+    "mktemp": "^0.4.0",
+    "mocha": "^2.2.5",
+    "readable-string": "^1.0.1",
+    "should": "^7.0.1"
   },
   "repository": {
     "type": "git",
